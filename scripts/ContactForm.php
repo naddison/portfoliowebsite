@@ -6,10 +6,10 @@
 	This script is available for download at http://www.nikolasaddison.com                            */
 	
 //Global variable declarations.
-$to = "nikolas.addison@gmail.com"; //Enter your e-mail here.
+$to = "e-mail"; //Enter your e-mail here.
 
 require_once('../recaptcha/recaptchalib.php');
-  $privatekey = "6Lfk59cSAAAAAPcA-0ixB6Zsc7fl3ToDNp04am9D";
+  $privatekey = "xxxxx";
   $resp = recaptcha_check_answer ($privatekey,
                                 $_SERVER["REMOTE_ADDR"],
                                 $_POST["recaptcha_challenge_field"],
