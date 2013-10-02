@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="UTF-8" />
+	<title>PHP Form to E-mail Script - Nikolas Addison Harris</title>
+	<link rel="stylesheet" href="../default.css" media="screen" type="text/css" />
+</head>
+
+<body>   
+	<header>
+		<h1 id="top">Nikolas Addison Harris</h1>
+		<h2>Programming & Design</h2>  
+		<nav>
+		    <ul>
+		        <li><a class="nav" title="home" href="index.html">Home</a></li>		 
+		        <li><a class="nav" title="resume" href="resume.html">Resume</a></li>	
+		        <li><a class="nav" title="projects" href="projects.html">Projects</a></li>		
+		        <li><a class="nav" title="contactme" href="contact.php">Contact</a></li>
+		    </ul>
+		 </nav>
+   	</header>
+	<section title="code">
+		<h1>PHP Form to E-mail Script</h1>
+		<p>This script is very basic and does not provide substantial validation for commercial purposes. However I do have a captcha to catch any inhuman users. HTML with the required attribute handles empty form fields. It would be good practice to validate that all required fields are filled server side as well, not all browsers currently support HTML form validation. To validate the e-mail address I use the inluded PHP library filter, I have conflicting accounts of that filter allowing invalid e-mail addresses through.</p>
+		<code>
+			<?php
+				highlight_file("emailform.php");
+			?>
+		</code>
+		<p> There is ample oppurtunity to take the form farther in validation as well as complexity. This script only works with a sister HTML page with the form that this script would process when submitted. Another practice is to have a single PHP script to echo the form and process the data submitted.</P>
+		<p> This is the early version of the script I use for this site, I added a more complex message building function that formats the e-mail I recieve so that it is more uer-friendly to read.</p>
+	</section>
+</body>
+</html>

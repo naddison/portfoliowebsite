@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="UTF-8" />
+	<title>PHP MySQL CRUD - Nikolas Addison Harris</title>
+	<link rel="stylesheet" href="../default.css" media="screen" type="text/css" />
+</head>
+
+<body>   
+	<header>
+		<h1 id="top">Nikolas Addison Harris</h1>
+		<h2>Programming & Design</h2>  
+		<nav>
+		    <ul>
+		        <li><a class="nav" title="home" href="../index.html">Home</a></li>		 
+		        <li><a class="nav" title="resume" href="../resume.html">Resume</a></li>	
+		        <li><a class="nav" title="projects" href="../projects.html">Projects</a></li>		
+		        <li><a class="nav" title="contactme" href="../contact.php">Contact</a></li>
+		    </ul>
+		 </nav>
+   	</header>
+	<article title="code">
+		<h1>PHP MySQL CRUD</h1>
+		<p>Displayed here is the code for two seperate scripts. One operates as the display of the entries and the other as an interface to the database. The original intent of the script was to provide a client with an easy interface to updating the news ticker on their front page. The user can add, delete, and edit news entries.</p>
+		<p>I opted to use a functional programming approach rather than OOP as it is easier to maintain for the purposes of being a simple news updater. The benefits of using an OOP approach would be the use of prepared statements which would provide more security. The display code can easiy be embedded into an existing template/webpage and styled using CSS to fit with the theme.</p>
+		<p>One of the shortcomings of this code is the inefficient use of $_GET to pass delete and edit information to itself. Using session would have been cleaner and more efficient. Using $_GET makes it simple to debug in the URL as the data can be manipulated without viewing the source code. However passing information in the URL does make it less secure, the specific application of this script did not a high level of security.</p>
+		<h1>Database Interface Source Code</h1>
+		<code>
+			<?php
+				highlight_file("databaseUI.php");
+			?>
+		</code>
+		<h1>Display Script Source Code</h1>
+		<code>
+			<?php
+				highlight_file("displaypage.php");
+			?>
+		</code>
+	</article>
+</body>
+</html>

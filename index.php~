@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="UTF-8" />
+	<title>Home - Nikolas Addison Harris</title>
+	<link rel="stylesheet" href="default.css" media="screen" type="text/css" />
+</head>
+<body>   
+    <header>
+        <h1 id="top">Nikolas Addison Harris</h1>
+	<h2>Programming & Design</h2> 
+        <nav>
+            <ul>
+                <li><a class="nav" title="home" href="index.html">Home</a></li>		 
+                <li><a class="nav" title="resume" href="resume.html">Resume</a></li>	
+                <li><a class="nav" title="projects" href="projects.html">Projects</a></li>		
+                <li><a class="nav" title="contactme" href="contact.php">Contact</a></li>
+            </ul>
+         </nav>
+   </header>
+        <!-- BEGIN CONTENT -->
+  <article id="main">
+      	<h1>Welcome!</h1>
+    	<p>My name is Nikolas Addison Harris and this is my website. Its simple aesthetic can tell you that I am foremost a programmer and not a graphics wizard. I currently attend Georgian College in Barrie, Ontario for a Programming Analyst CO-OP Diploma, however my experience and passion for technology predates my academic career. </p>
+    	<p>I remember when my father brought home our first family computer; my first OS being MS-DOS. First game being hooked on was Doofus. Then came building my first website, gaming desktop, application, and I have been learning ever since.  Technology is a hard term to define. I can never put my finger on what technology is, but I define myself by my passion for it. </p>
+	<p>I created this space so that I may showcase my work on the many projects I have undertaken and am currently working on. I hope that you while exploring my corner of the web you may learn something or have something to teach me. No one is ever done learning and I love making new friends with the same passion I have for coding and hardware. Check out my contact page on how to reach me.</p>
+   	 <h2>Enjoy!</h2>
+      <footer>    
+	<a href="contact.php"><img src="images/email.png" title="E-mail Icon"></a>
+	<a href="http://www.reddit.com/user/NAddison/" title="Nikolas on Reddit"><img src="images/Reddit-2.png" title="Reddit Icon"></a>
+	<a href="https://twitter.com/NikolasAddison" title="Nikolas on Twitter"><img src="images/twitter-1.png" title="Twitter Icon"></a>
+        <p>This website and its content is copyright of Nikolas Addison Harris - © Nikolas Addison Harris 2012.</p>
+      </footer>
+  </article>
+  <aside id="redditRss">
+	<?php
+
+	$feedUrl = 'http://www.reddit.com/r/AlternatingBuckets/.rss';
+	//file_get_contents allows us to request the feed through HTTP.
+	$getRss = file_get_contents($feedurl);
+	$rss = simplexml_load_file($getRss);
+	var_dump($feedurl);
+
+	
+
+
+
+	?>
+  </aside>
+</body>
+</html>

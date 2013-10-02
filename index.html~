@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html class="gradient" lang="en">
+<!--[if gte IE 9]>
+  <style type="text/css">
+    .gradient {
+       filter: none;
+    }
+  </style>
+<![endif]-->
+<head>
+	<meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width">
+	<title>Home - Nikolas Addison Harris</title>
+    <!-- jQuery (required) -->
+    <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+    <link rel="stylesheet" media="screen and (max-width: 641px)" href="small.css" type="text/css" /> <!-- Capture small screen sizes -->
+	<link rel="stylesheet" href="default.css" media="screen and (min-width: 642px)"" type="text/css" /> <!-- Default desktop/tablet sheet -->  
+</head>
+<body>   
+    <header>
+        <h1 id="top">Nikolas Addison Harris</h1>
+	    <h2>Discovering solutions through learning and experience.</h2> 
+        <nav>
+            <ul>
+                <li><a class="nav" title="home" href="index.html">Home</a></li>		 
+                <li><a class="nav" title="resume" href="resume.html">Resume</a></li>	
+                <li><a class="nav" title="projects" href="projects.html">Projects</a></li>
+                <li><a class="nav" title="github" href="">Github</a></li>		
+                <li><a class="nav" title="contactme" href="contact.php">Contact</a></li>
+            </ul>
+         </nav>
+   </header>
+        <!-- BEGIN CONTENT -->
+  <article id="main">
+        <div id="slider">
+            <p id="next">Next</p>
+            <div id="slide"></div>
+            <p id="prev">Previous</p>
+        <div>
+      	<h1>Welcome!</h1>
+	    <p>I created this space so that I may showcase my work on the many projects I have undertaken and am currently working on. I hope that you while exploring my corner of the web you may learn something or have something to teach me. No one is ever done learning and I love making new friends with the same passion I have for coding and hardware. Check out my contact page on how to reach me.</p>
+   	    <h2>Enjoy!</h2>
+      <footer>    
+	    <a href="contact.php"><img src="images/email.png" title="E-mail Icon"></a>
+	    <a href="http://www.reddit.com/user/NAddison/" title="Nikolas on Reddit"><img src="images/Reddit-2.png" title="Reddit Icon"></a>
+	    <a href="https://twitter.com/NikolasAddison" title="Nikolas on Twitter"><img src="images/twitter-1.png" title="Twitter Icon"></a>
+        <p>This website and its content is copyright of Nikolas Addison Harris - © Nikolas Addison Harris 2013.</p>
+      </footer>
+  </article>
+</body>
+<script>
+    $(document).ready(function() {
+        //if the next button is pressed
+        $( '#next' ).on( 'click', function( event ) {
+            $( '#slide' ).css("background-color", "yellow"); );
+})      
+});
+</script>
+</html>
