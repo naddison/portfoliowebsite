@@ -9,27 +9,28 @@
 <![endif]-->
 <head>
 	<meta charset="UTF-8" />
-	<title>Contact Me - Nikolas Addison Harris</title>
-	<link rel="stylesheet" href="default.css" media="screen" type="text/css" />
+    <meta name="viewport" content="width=device-width">
+	<title>Home - Nikolas Addison Harris</title>
+    <link rel="stylesheet" media="screen and (max-width: 641px)" href="small.css" type="text/css" /> <!-- Capture small screen sizes -->
+	<link rel="stylesheet" href="default.css" media="screen and (min-width: 642px)"" type="text/css" /> <!-- Default desktop/tablet sheet -->
 </head>
-
 <body>   
-	<header>
+    <header>
         <h1 id="top">Nikolas Addison Harris</h1>
-	<h2>Discovering solutions through learning and experience.</h2>  
+	    <h2>Discovering solutions through learning and experience.</h2> 
         <nav>
             <ul>
-                <li><a class="nav" title="home" href="index.html">Home</a></li>		 
-                <li><a class="nav" title="resume" href="resume.html">Resume</a></li>	
-                <li><a class="nav" title="projects" href="projects.html">Projects</a></li>		
-                <li><a class="nav" title="contactme" href="contact.php">Contact</a></li>
+                <li><a class="nav" title="Home" href="index.html">Home</a></li>		 
+                <li><a class="nav" title="Resume" href="resume.html">Resume</a></li>	
+                <li><a class="nav" title="Projects" href="projects.html">Projects</a></li>
+                <li><a class="nav" title="Github" href="https://github.com/naddison">Github</a></li>		
+                <li><a class="nav" title="Contact" href="contact.php">Contact</a></li>
             </ul>
          </nav>
    </header>
             <!-- BEGIN CONTENT -->
                 <article id="main">
                 	<h1>Send me an e-mail!</h1>
-                  <p>To contact me regarding any of my work, or just a comment please use the form provided. The form helps me sort through different kinds of requests with a tag that the form puts into the subject line. Please give me 24 hours to respond to any message. I do check my mail religiously but now and then I do have things that take most of my attention away from responding.</p>
                   <form name="contactme" method="post" action="scripts/ContactForm.php">
                   <fieldset>
                   <legend>Contact Information</legend>

@@ -9,42 +9,43 @@
 <![endif]-->
 <head>
 	<meta charset="UTF-8" />
-	<title>Projects - Nikolas Addison Harris</title>
-	<link rel="stylesheet" href="default.css" media="screen" type="text/css" />
+    <meta name="viewport" content="width=device-width">
+	<title>Home - Nikolas Addison Harris</title>
+    <link rel="stylesheet" media="screen and (max-width: 641px)" href="small.css" type="text/css" /> <!-- Capture small screen sizes -->
+	<link rel="stylesheet" href="default.css" media="screen and (min-width: 642px)"" type="text/css" /> <!-- Default desktop/tablet sheet -->
 </head>
-
 <body>   
-	<header>
-        	<h1 id="top">Nikolas Addison Harris</h1>
-		<h2>Discovering solutions through learning and experience.</h2>
-        	<nav>
-		    	<ul>
-				<li><a class="nav" title="home" href="index.html">Home</a></li>		 
-				<li><a class="nav" title="resume" href="resume.html">Resume</a></li>	
-				<li><a class="nav" title="projects" href="projects.html">Projects</a></li>		
-				<li><a class="nav" title="contactme" href="contact.php">Contact</a></li>
-		    	</ul>
-         	</nav>
-   	</header>
+    <header>
+        <h1 id="top">Nikolas Addison Harris</h1>
+	    <h2>Discovering solutions through learning and experience.</h2> 
+        <nav>
+            <ul>
+                <li><a class="nav" title="Home" href="index.html">Home</a></li>		 
+                <li><a class="nav" title="Resume" href="resume.html">Resume</a></li>	
+                <li><a class="nav" title="Projects" href="projects.html">Projects</a></li>
+                <li><a class="nav" title="Github" href="https://github.com/naddison">Github</a></li>		
+                <li><a class="nav" title="Contact" href="contact.php">Contact</a></li>
+            </ul>
+         </nav>
+   </header>
             <!-- BEGIN CONTENT -->
 	<article id="main">
-				<h1>Minecraft Server</h1>
-				<p>The minecraft server I administer runs a custom modpack (a combination of RedPower 2 and Voltz). It runs on a headless Ubuntu 12.04 server. It shares its resources with a web/ftp server. I use my own bash scripts to manage its startup/shutdown and backup processes. A link to its information can be found <a href='http://99.239.118.212/gluon/controller/'>here</a></p>
-                <h1>PHP Scripts</h1>
-                <p>For this website and others I have worked on through Hovercar I wrote a few PHP scripts which I release the source code  for.</p>
+		<h1>Minecraft Server</h1>
+		<p>The minecraft server I administer runs a custom modpack (a combination of RedPower 2 and Voltz). It runs on a headless Ubuntu 12.04 server. It shares its resources with a web/ftp server. I use my own bash scripts to manage its startup/shutdown and backup processes. A link to its information can be found <a href='http://99.239.85.142/gluon/controller/index.php'>here</a></p>
+        <h1>PHP Scripts</h1>
 		<ul>	
 			<li><a href="projects/phpemailform.php" title="PHP Form to E-mail Script">Form to E-mail Script</a></li>
 			<li><a href="projects/databaseCRUD.php" title="PHP Database CRUD">Basic News Feed(PHP MySQL CRUD)</a></li>
 		</ul>
                 <h1>College Projects</h1>
                 <p>Here I will release my code and documentation towards my larger college projects that are worth showcasing.</p>        
-             	<footer>    
+         <footer>    
 			<a href="contact.php"><img src="images/email.png" title="E-mail Icon"></a>
 			<a href="http://www.reddit.com/user/NAddison/" title="Nikolas on Reddit"><img src="images/Reddit-2.png" title="Reddit Icon"></a>
 			<a href="https://twitter.com/NikolasAddison" title="Nikolas on Twitter"><img src="images/twitter-1.png" title="Twitter Icon"></a>
-        		<p>This website and its content is copyright of Nikolas Addison Harris - © Nikolas Addison Harris 2013.</p>
+			<p>This website and its content is copyright of Nikolas Addison Harris - © Nikolas Addison Harris 2013.</p>
 		</footer>
-         </article>
+     </article>
             <!-- END CONTENT -->    
 </body>
 </html>

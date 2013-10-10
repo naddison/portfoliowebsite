@@ -12,14 +12,14 @@
     <meta name="viewport" content="width=device-width">
 	<title>Home - Nikolas Addison Harris</title>
     <!-- jQuery (required) -->
-    <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+    <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js" type="text/javascript"></script>
+    <script src="scripts/ImageSlider.js" type="text/javascript"></script>
     <link rel="stylesheet" media="screen and (max-width: 641px)" href="small.css" type="text/css" /> <!-- Capture small screen sizes -->
 	<link rel="stylesheet" href="default.css" media="screen and (min-width: 642px)"" type="text/css" /> <!-- Default desktop/tablet sheet -->  
 </head>
 <body>   
     <header>
         <h1 id="top">Nikolas Addison Harris</h1>
-	    <h2>Discovering solutions through learning and experience.</h2> 
         <nav>
             <ul>
                 <li><a class="nav" title="Home" href="index.html">Home</a></li>		 
@@ -30,77 +30,26 @@
             </ul>
          </nav>
    </header>
-        <!-- BEGIN CONTENT -->
+        <!-- BEGIN CONTENT --> 
   <article id="main">
-        <div id="slider">
-			<div id="slide"><a href="https://github.com/naddison" id="slidelink">Link</a></div>
-			<p id="next">Next</p>	
-            <p id="prev">Prev</p>
-        </div>
       	<h1>Welcome!</h1>
 	    <p>I created this space so that I may showcase my work on the many projects I have undertaken and am currently working on. I hope that you while exploring my corner of the web you may learn something or have something to teach me. No one is ever done learning and I love making new friends with the same passion I have for coding and hardware. Check out my contact page on how to reach me.</p>
    	    <h2>Enjoy!</h2>
-      <footer>    
-	    <a href="contact.php"><img src="images/email.png" title="E-mail Icon"></a>
-	    <a href="http://www.reddit.com/user/NAddison/" title="Nikolas on Reddit"><img src="images/Reddit-2.png" title="Reddit Icon"></a>
-	    <a href="https://twitter.com/NikolasAddison" title="Nikolas on Twitter"><img src="images/twitter-1.png" title="Twitter Icon"></a>
-        <p>This website and its content is copyright of Nikolas Addison Harris - © Nikolas Addison Harris 2013.</p>
+        <div id="twitter">
+            <a class="twitter-timeline"  href="https://twitter.com/NikolasAddison"  data-widget-id="261878952052785152">Tweets by @NikolasAddison</a>
+            <script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+"://platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");</script>
+        </div>
+        <div id="slider">
+            <p id="next"></p>
+			<div id="slide"><a href="https://github.com/naddison" id="slidelink">Link</a></div>	
+            <p id="prev"></p>
+        </div>
+      <footer>  
+        <a href="contact.php"><img src="images/email.png" title="E-mail Icon"></a>
+	        <a href="http://www.reddit.com/user/NAddison/" title="Nikolas on Reddit"><img src="images/Reddit-2.png" title="Reddit Icon"></a>
+	        <a href="https://twitter.com/NikolasAddison" title="Nikolas on Twitter"><img src="images/twitter-1.png" title="Twitter Icon"></a>  
+            <p>This website and its content is copyright of Nikolas Addison Harris - © Nikolas Addison Harris 2013.</p>
       </footer>
   </article>
 </body>
-
-<script>
-	/* Featured Work Slider
-		Author: Nikolas Harris
-		Date: September 29, 2013
-		
-		This slider uses changes the attributes of the CSS rules and HTML attributes on click of the 
-		'next' or 'previous' buttons.
-	*/
-	
-    $(document).ready(function() {
-
-	//URL Paths for slide images
-	var slidepaths = new Array();
-	slidepaths[0] = 'images/githublink.jpg';
-	slidepaths[1] = 'images/contactslide.jpg';
-	slidepaths[2] = 'images/hovercarslide.jpg';
-	slidepaths[3] = 'images/gluonslide.jpg';
-	
-	//URL paths for each slide to go to
-	var slideDest = new Array();
-	slideDest[0] = 'https://github.com/naddison';
-	slideDest[1] = 'contact.php';
-	slideDest[2] = 'http://hovercardigital.com/';
-	slideDest[3] = 'http://99.239.85.142/gluon/controller/index.php';
-	
-	var position = 1;
-
-        //if the next button is pressed
-        $( '#next' ).on( 'click', function( event ) {
-			if (position < 3) {
-				position = position + 1;
-			}
-				else {
-			position = 0;
-			}
-            $( '#slide' ).css('background-image', 'url(' +slidepaths[position]+ ')' );
-			$( '#slidelink' ).attr("href", slideDest[position]);
-			
-		})		
-
-	//if the previous button is pressed
-        $( '#prev' ).on( 'click', function( event ) {
-			if (position <= 0) {
-				position = 3;
-			}
-			else {
-				position = position - 1;
-			}
-			$( '#slide' ).css('background-image', 'url(' +slidepaths[position]+ ')' );
-			$( '#slidelink' ).attr("href", slideDest[position]);
-				   				
-		})      
-});
-</script>
 </html>
