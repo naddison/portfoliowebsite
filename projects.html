@@ -11,6 +11,8 @@
 	<meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width">
 	<title>Home - Nikolas Addison Harris</title>
+    <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js" type="text/javascript"></script>
+    <script src="scripts/ImageSlider.js" type="text/javascript"></script>
     <link rel="stylesheet" media="screen and (max-width: 641px)" href="small.css" type="text/css" /> <!-- Capture small screen sizes -->
 	<link rel="stylesheet" href="default.css" media="screen and (min-width: 642px)"" type="text/css" /> <!-- Default desktop/tablet sheet -->
 </head>
@@ -20,8 +22,8 @@
         <nav>
             <ul>
                 <li><a class="nav" title="Home" href="index.html">Home</a></li>		 
-                <li><a class="nav" title="Resume" href="resume.html">Resume</a></li>	
-                <li><a class="nav" title="Projects" href="projects.html">Projects</a></li>
+                <li><a class="nav" title="About Me" href="about.html">About Me</a></li>	
+                <li><a class="navActive" title="Projects" href="projects.html">Projects</a></li>
                 <li><a class="nav" title="Github" href="https://github.com/naddison">Github</a></li>		
                 <li><a class="nav" title="Contact" href="contact.php">Contact</a></li>
             </ul>
@@ -29,22 +31,32 @@
    </header>
             <!-- BEGIN CONTENT -->
 	<article id="main">
-		<h1>Minecraft Server</h1>
-		<p>The minecraft server I administer runs a custom modpack (a combination of RedPower 2 and Voltz). It runs on a headless Ubuntu 12.04 server. It shares its resources with a web/ftp server. I use my own bash scripts to manage its startup/shutdown and backup processes. A link to its information can be found <a href='http://99.239.85.142/gluon/controller/index.php'>here</a></p>
-        <h1>PHP Scripts</h1>
-		<ul>	
-			<li><a href="projects/phpemailform.php" title="PHP Form to E-mail Script">Form to E-mail Script</a></li>
-			<li><a href="projects/databaseCRUD.php" title="PHP Database CRUD">Basic News Feed(PHP MySQL CRUD)</a></li>
+        <h1>Services I offer</h1>
+		<h3>Web Development</h3>
+		<p>I can assist in designing and developing web applications for a variety of scenarios. Currently my experience is with database driven web applications focused on content delivery to users. I frequently use PHP, Python, Javascript, CSS, and HTML to deliver web solutions.</p>
+		<h3>Technical Support</h3>
+		<p>I can offer varying levels of technical support on a multitude of software and hardware platforms. I have experience with:</p>
+		<ul>
+			<li>Linux & Windows Server administration</li>
+			<li>Troubleshooting Desktop Hardware</li>
+			<li>Intermediate Network Configuration</li>
+			<li>Custom PC Solutions</li>
+			<li>Cabling / Installation of Systems</li>
+			<li>Point of Sales Equipment</li>
 		</ul>
-                <h1>College Projects</h1>
-                <p>Here I will release my code and documentation towards my larger college projects that are worth showcasing.</p>        
+		<h1>Current Projects</h1>
+		<h3>Gluon Minecraft</h3>
+		<p>Gluon is the name of a Minecraft modpack put together using the Technic Launcher. I administer the server, both the hardware and software. It is mostly automated with custom bash scripts to handle the start up, shut down and backup of the world files. Associated with this project is the “Let’s Play” video series that is being produced using the server. I also provide technical support for the group.</p>
+		<p>Currently I am developing a new daemon to administer the Minecraft server with using Python. It is planned to have a web console so that other Moderators can perform maintenance online.</p>
+		<h3>Github Repositories</h3>
+		<p>My github holds source code from various projects from my college program as well as personal ones. For a description of them see their individual readme files in their respective repository.</p>		
          <footer>    
 			<a href="contact.php"><img src="images/email.png" title="E-mail Icon"></a>
 			<a href="http://www.reddit.com/user/NAddison/" title="Nikolas on Reddit"><img src="images/Reddit-2.png" title="Reddit Icon"></a>
 			<a href="https://twitter.com/NikolasAddison" title="Nikolas on Twitter"><img src="images/twitter-1.png" title="Twitter Icon"></a>
 			<p>This website and its content is copyright of Nikolas Addison Harris - © Nikolas Addison Harris 2013.</p>
 		</footer>
-     </article>
+    </article>
             <!-- END CONTENT -->    
 </body>
 </html>

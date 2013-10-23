@@ -21,7 +21,6 @@ a {
 	text-decoration: none; /*Eliminate all underlines on anchors in the page*/
 }
 body {
-    outline: 1px solid #575757;
     font-family: 'Ubuntu Mono', sans-serif; 
     font-size: 1.25em;
     background: rgb(245,246,246); /* Old browsers */
@@ -102,15 +101,21 @@ nav a:active {
 }
 footer {
     clear: left;
-	font-size: 0.5em;
+	font-size: 0.75em;
 	text-align: center;
 }
 article {
 	margin: auto;
     width: 80%;
     margin-top: 5em;
-    font-size: 0.8em;
 	line-height: 1.4;
+}
+article h1, h2, p {
+    padding: 0.5em;
+    margin: 0.5em;
+}
+p { 
+    text-indent: 0.5em;
 }
 
 /* Form CSS */
@@ -155,7 +160,6 @@ input {
     background-color: #ffffff;
 }
 #slide {
-	clear: right;
 	margin: 0 auto;
 	background: url('images/githublink.jpg');
 	height: 250px;
@@ -167,7 +171,8 @@ input {
 
 /* Twitter CSS */
 #twitter {
-    float: left;
+    margin-left: 1em;
+    padding: 1em;
     width: 50%;
 }
 

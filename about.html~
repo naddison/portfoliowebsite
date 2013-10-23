@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html class="gradient" lang="en">
+<!--[if gte IE 9]>
+  <style type="text/css">
+    .gradient {
+       filter: none;
+    }
+  </style>
+<![endif]-->
+<head>
+	<meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width">
+	<title>Home - Nikolas Addison Harris</title>
+    <link rel="stylesheet" media="screen and (max-width: 641px)" href="small.css" type="text/css" /> <!-- Capture small screen sizes -->
+	<link rel="stylesheet" href="default.css" media="screen and (min-width: 642px)"" type="text/css" /> <!-- Default desktop/tablet sheet -->
+</head>
+<body>   
+    <header>
+        <h1 id="top">Nikolas Addison Harris</h1> 
+        <nav>
+            <ul>
+                <li><a class="nav" title="Home" href="index.html">Home</a></li>		 
+                <li><a class="nav" title="Resume" href="resume.html">Resume</a></li>	
+                <li><a class="nav" title="Projects" href="projects.html">Projects</a></li>
+                <li><a class="nav" title="Github" href="https://github.com/naddison">Github</a></li>		
+                <li><a class="nav" title="Contact" href="contact.php">Contact</a></li>
+            </ul>
+         </nav>
+   </header>
+            <!-- BEGIN CONTENT -->
+                <article id="main">
+                    <h2>Programmer / Web Developer / Technical Support</h2>
+					<h3>Employment History</h3>
+                    <h4>Hovercar Digital Productions - Web Developer - Current (Self-Employment)</h4>
+                    <ul>
+                    	<li>Complete client requests for webpage’s using: HTML5, CSS3, PHP, Javascript, Python.</li>
+                    </ul>
+                    <h4>Canada's Wonderland - System Technician - 2013 Summer Season</h4>
+                    <ul>
+                        <li>Level 2 IT Technician.</li>
+                        <li>Responsible for Micros units and staff work stations.</li>
+                        <li>Windows Server environment with Active Directory management.</li>
+                    </ul>
+                    <h4>Harris & Harris Restaurants – Management -  June 2006 to Current</h4>
+                    <ul>
+                    	<li>Daily operations of the restaurant.</li>
+                        <li>Ordering and inventory for the store.</li>
+						<li>Scheduling for a team of 25+ people.</li>
+						<li>HR (Hiring, Training, Conflict Resolution).</li>
+						<li>Maintaining regulatory conditions in accordance with the OHSA and SMDHU.</li>
+						<li>Sales and product forecasting.</li>
+						<li>Level 1 IT support.</li>
+                    </ul>
+					<h3>Education</h3>
+					<h4>Computer Programmer Analyst Co-Op Diploma, Georgian College</h4>
+					<h5>Completed 1st year of program.</h5>
+					<h4>BS of Arts in English Literature, Carleton University</h4>
+					<h5>Completed 3rd year of program.</h5>
+					<h4>BS of Arts Undecided Major, York University</h4>
+					<h5>Completed 1st year, moved program to Carleton.</h5>
+					<h3>Why consider me?</h3>
+					<p>As a technician I understand that I offer a service and I enjoy sharing my passion through learning and educating others in its use. Clear communication is important to excellent customer service. I strive for perfection while keeping deadlines and efficiency in mind.</p>
+                    <p>At Pizza Hut I served as an on-call level 1 technician, escalating problems I could not solve to an off-site call center. I have learned the value of speed in solving technical problems as speed is key to the food service industry.</p>
+                    <p>Wonderland taught me how to work in a larger team solving technical problems on a bigger scale. Wonderland also introduced me to the complexity of inter-department communication, impressing even more the importance of clear and concise communication between people.</p>
+                    <p>Above all I am reliable and to be successful you must surround yourself with a crew you can rely on.</p>
+                    <p>If I don’t know it, I learn it.</p>
+			<footer>
+				<a href="contact.php"><img src="images/email.png" title="E-mail Icon"></a>
+				<a href="http://www.reddit.com/user/NAddison/" title="Nikolas on Reddit"><img src="images/Reddit-2.png" title="Reddit Icon"></a>
+				<a href="https://twitter.com/NikolasAddison" title="Nikolas on Twitter"><img src="images/twitter-1.png" title="Twitter Icon"></a>    
+				<p>This website and its content is copyright of Nikolas Addison Harris - © Nikolas Addison Harris 2013.</p>
+     			</footer>
+		</article>
+            <!-- END CONTENT -->   
+</body>
+</html>

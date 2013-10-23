@@ -20,10 +20,10 @@
         <nav>
             <ul>
                 <li><a class="nav" title="Home" href="index.html">Home</a></li>		 
-                <li><a class="nav" title="Resume" href="resume.html">Resume</a></li>	
+                <li><a class="nav" title="About" href="about.html">About Me</a></li>	
                 <li><a class="nav" title="Projects" href="projects.html">Projects</a></li>
                 <li><a class="nav" title="Github" href="https://github.com/naddison">Github</a></li>		
-                <li><a class="nav" title="Contact" href="contact.php">Contact</a></li>
+                <li><a class="navActive" title="Contact" href="contact.php">Contact</a></li>
             </ul>
          </nav>
    </header>

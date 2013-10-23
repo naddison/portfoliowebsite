@@ -11,17 +11,18 @@
 	<meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width">
 	<title>Home - Nikolas Addison Harris</title>
+    <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js" type="text/javascript"></script>
+    <script src="scripts/ImageSlider.js" type="text/javascript"></script>
     <link rel="stylesheet" media="screen and (max-width: 641px)" href="small.css" type="text/css" /> <!-- Capture small screen sizes -->
 	<link rel="stylesheet" href="default.css" media="screen and (min-width: 642px)"" type="text/css" /> <!-- Default desktop/tablet sheet -->
 </head>
 <body>   
     <header>
         <h1 id="top">Nikolas Addison Harris</h1>
-	    <h2>Discovering solutions through learning and experience.</h2> 
         <nav>
             <ul>
                 <li><a class="nav" title="Home" href="index.html">Home</a></li>		 
-                <li><a class="nav" title="Resume" href="resume.html">Resume</a></li>	
+                <li><a class="nav" title="About Me" href="resume.html">Resume</a></li>	
                 <li><a class="nav" title="Projects" href="projects.html">Projects</a></li>
                 <li><a class="nav" title="Github" href="https://github.com/naddison">Github</a></li>		
                 <li><a class="nav" title="Contact" href="contact.php">Contact</a></li>
@@ -30,6 +31,11 @@
    </header>
             <!-- BEGIN CONTENT -->
 	<article id="main">
+        <div id="slider">
+            <p id="next"></p>
+			<div id="slide"><a href="https://github.com/naddison" id="slidelink">Link</a></div>	
+            <p id="prev"></p>
+        </div>
 		<h1>Minecraft Server</h1>
 		<p>The minecraft server I administer runs a custom modpack (a combination of RedPower 2 and Voltz). It runs on a headless Ubuntu 12.04 server. It shares its resources with a web/ftp server. I use my own bash scripts to manage its startup/shutdown and backup processes. A link to its information can be found <a href='http://99.239.85.142/gluon/controller/index.php'>here</a></p>
         <h1>PHP Scripts</h1>
