@@ -15,15 +15,15 @@
 	<link rel="stylesheet" href="default.css" media="screen and (min-width: 642px)"" type="text/css" /> <!-- Default desktop/tablet sheet -->
 </head>
 <body>   
-    <header>
+    <header class="gradient">
         <h1 id="top">Nikolas Addison Harris</h1> 
         <nav>
             <ul>
-                <li><a class="nav" title="Home" href="index.html">Home</a></li>		 
-                <li><a class="nav" title="About" href="about.html">About Me</a></li>	
-                <li><a class="nav" title="Projects" href="projects.html">Projects</a></li>
-                <li><a class="nav" title="Github" href="https://github.com/naddison">Github</a></li>		
-                <li><a class="navActive" title="Contact" href="contact.php">Contact</a></li>
+                <li class="gradient"><a class="nav" title="Home" href="index.html">Home</a></li>		 
+                <li class="gradient"><a class="nav" title="About" href="about.html">About Me</a></li>	
+                <li class="gradient"><a class="nav" title="Projects" href="projects.html">Projects</a></li>
+                <li class="gradient"><a class="nav" title="Github" href="https://github.com/naddison">Github</a></li>		
+                <li class="gradient"><a class="navActive" title="Contact" href="contact.php">Contact</a></li>
             </ul>
          </nav>
    </header>
@@ -52,7 +52,7 @@
                    ?>
                   <input type="submit"><input type="reset"> 
                   </form> 
-              	<footer>    
+              	<footer class="gradient">    
 			<a href="contact.php"><img src="images/email.png" title="E-mail Icon"></a>
 			<a href="http://www.reddit.com/user/NAddison/" title="Nikolas on Reddit"><img src="images/Reddit-2.png" title="Reddit Icon"></a>
 			<a href="https://twitter.com/NikolasAddison" title="Nikolas on Twitter"><img src="images/twitter-1.png" title="Twitter Icon"></a>
